@@ -1,2 +1,3 @@
-# facebook-clone
-Facebook clone  using HTML &amp; Sass &amp;  CSS 
+- [ ] Facebook clone
+
+- [ ] Technology `HTML` &  `CSS` and `Sass`
