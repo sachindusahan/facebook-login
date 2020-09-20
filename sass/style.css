@@ -87,6 +87,9 @@ body form .inner-form .login-btn {
   font-weight: bold;
   margin: 0 0 15px 0;
 }
+body footer {
+  display: none;
+}
 
 @media (max-width: 780px) {
   body form {
@@ -99,17 +102,20 @@ body form .inner-form .login-btn {
   body form .inner-form {
     box-shadow: none;
     width: 100%;
+    margin-bottom: 60px;
   }
   body form .inner-form h4 {
     display: none;
   }
   body form .inner-form .login-btn {
     width: 70%;
+    border-radius: 4px;
   }
   body form .inner-form .email_or_phone,
 body form .inner-form .password {
     background: #F0F2F5;
     width: 70%;
+    border-radius: 4px;
   }
   body form .inner-form #email-or-phone::placeholder {
     color: #787878;
@@ -130,6 +136,8 @@ body form .inner-form .password {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   body form .inner-form .mobile-mode .inner-mobile-mode {
     display: flex;
@@ -148,6 +156,60 @@ body form .inner-form .password {
     font-weight: 400;
     color: #555;
     padding: 0 10px;
+  }
+  body form .inner-form .mobile-mode a {
+    text-decoration: none;
+    color: #F0F2F5;
+    background-color: #00A400;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 0.3px -0.2px 3px #555;
+    padding: 10px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 16px 0 15px 0;
+    font-size: 14px;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  body footer .first-lang-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body footer .first-lang-div a {
+    text-decoration: none;
+    color: #1877F2;
+    opacity: 0.9;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin: 2px 0;
+  }
+  body footer .first-lang-div .active {
+    color: #7E7E7E;
+    font-weight: 600;
+  }
+  body footer .second-lang-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body footer .second-lang-div a {
+    text-decoration: none;
+    color: #1877F2;
+    opacity: 0.9;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin: 2px 0;
+  }
+  body footer .second-lang-div a .fa-plus {
+    color: #7E7E7E;
+    font-size: 17px;
+    font-weight: 100;
+    border: 1px solid #1877F2;
+    padding: 2px 3px;
+    border-radius: 2px;
   }
 }
 @media (max-width: 500px) {
