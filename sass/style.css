@@ -6,7 +6,7 @@
 
 body form {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #F0F2F5;
   display: flex;
   flex-direction: column;
@@ -29,9 +29,10 @@ body form .inner-form {
   border-radius: 5px;
   width: 420px;
   height: 300px;
+  margin-bottom: 120px;
 }
 body form .inner-form h4 {
-  font-size: 14px;
+  font-size: 16.5px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   margin: 20px 0 20px 0;
@@ -40,8 +41,11 @@ body form .inner-form .forgot-account a {
   color: #1877F2;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+body form .inner-form .mobile-mode {
+  display: none;
 }
 body form .inner-form .email_or_phone,
 body form .inner-form .password {
@@ -49,9 +53,114 @@ body form .inner-form .password {
   border: none;
   outline: none;
   border: 0.7px solid #9E9E9E;
-  height: 40px;
-  border-radius: 10px;
+  height: 50px;
+  border-radius: 8px;
   padding: 0 0 0 15px;
+}
+body form .inner-form #email-or-phone {
+  margin: 0 0 15px 0;
+  font-size: 16.5px;
+  font-family: "Raleway", sans-serif;
+}
+body form .inner-form #email-or-phone::placeholder {
+  font-size: 16.5px;
+  opacity: 0.7;
+}
+body form .inner-form #password::placeholder {
+  font-size: 16.5px;
+  opacity: 0.7;
+}
+body form .inner-form #password {
+  font-size: 16.5px;
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 15px 0;
+}
+body form .inner-form .login-btn {
+  all: unset;
+  color: #F0F2F5;
+  background-color: #1877F2;
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+@media (max-width: 780px) {
+  body form {
+    width: 100%;
+    background-color: #FFF;
+  }
+  body form .fb-name {
+    font-size: 30px;
+  }
+  body form .inner-form {
+    box-shadow: none;
+    width: 100%;
+  }
+  body form .inner-form h4 {
+    display: none;
+  }
+  body form .inner-form .login-btn {
+    width: 70%;
+  }
+  body form .inner-form .email_or_phone,
+body form .inner-form .password {
+    background: #F0F2F5;
+    width: 70%;
+  }
+  body form .inner-form #email-or-phone::placeholder {
+    color: #787878;
+    opacity: 1;
+  }
+  body form .inner-form #password::placeholder {
+    color: #787878;
+    opacity: 1;
+  }
+  body form .inner-form .forgot-account .sign-up-for-fb {
+    display: none;
+  }
+  body form .inner-form .forgot-account a {
+    color: #5299F5;
+  }
+  body form .inner-form .mobile-mode {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body form .inner-form .mobile-mode .inner-mobile-mode {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body form .inner-form .mobile-mode .inner-mobile-mode h1 {
+    border-bottom: 1px solid #9E9E9E;
+    width: 100%;
+  }
+  body form .inner-form .mobile-mode .inner-mobile-mode h2 {
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #555;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 500px) {
+  body form .inner-form .email_or_phone,
+body form .inner-form .password {
+    width: 90%;
+  }
+  body form .inner-form .login-btn {
+    width: 90%;
+  }
+  body form .inner-form .mobile-mode .inner-mobile-mode {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
