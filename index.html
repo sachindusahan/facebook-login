@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href='./sass/style.css' rel='stylesheet'>
-    <title>Facebook Clone Using HTML & CSS</title>
+    <title>Facebook Clone Using HTML & CSS and Sass</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='./stylesheets/font.css'>
     <meta name="keywords" content="facebook login clone , fb clone"> 
@@ -15,11 +15,16 @@
         <h1 class='fb-name'>facebook</h1>
         <div class='inner-form'>
             <h4>Log in to Facebook</h4>
-            <input type='text' placeholder='Email address or phone number' class='email_or_phone'>
-            <input type='password' placeholder='Password' class='password'>
-            <input type='submit' value='Log in' class='login'>
+            <input type='text' placeholder='Email address or phone number' id='email-or-phone' class='email_or_phone'>
+            <input type='password' placeholder='Password' id='password' class='password'>
+            <a href='' class='btn login-btn' type='button'>Log in</a>
+            <div class='mobile-mode'>
+                <div class='inner-mobile-mode'>
+                    <h1></h1><h2>or</h2><h1></h1>
+                </div>
+            </div>
             <div class='forgot-account'>
-                <a href=''>Forgotten account? . </a><a href=''>Sign up for Facebook</a>
+                <a href=''>Forgotten account? </a><a class="sign-up-for-fb" href=''>. Sign up for Facebook</a>
             </div>
         </div>
     </form>
