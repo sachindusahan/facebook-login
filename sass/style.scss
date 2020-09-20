@@ -1,4 +1,5 @@
 $formBgcolor: #F0F2F5;
+$fbBlue: #1877F2;
 
 * {
     margin: 0;
@@ -16,7 +17,7 @@ body {
         align-items: center;
         
         .fb-name {
-            color: #1877F2;
+            color: $fbBlue;
             padding: 40px 0 20px 0; 
             font-size: 50px;
             font-weight: 600;
@@ -26,6 +27,43 @@ body {
         
         .inner-form {
             background: #FFF;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            box-shadow: .1px .1px 10px #9E9E9E;
+            border-radius: 5px;
+            width: 420px;
+            height: 300px;
+            
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                margin: 20px 0 20px 0;
+            }
+            
+            .forgot-account {
+            
+                a {
+                    color:$fbBlue;
+                    text-decoration: none;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 10px;
+                    
+                }
+            }
+            
+            .email_or_phone ,
+            .password {
+                width: 90%;
+                border: none;
+                outline: none;
+                border: 0.7px solid #9E9E9E;
+                height: 40px;
+                border-radius: 10px;
+                padding: 0 0 0 15px;
+            }
         }
     }
 }

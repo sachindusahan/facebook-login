@@ -22,6 +22,36 @@ body form .fb-name {
 }
 body form .inner-form {
   background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.1px 0.1px 10px #9E9E9E;
+  border-radius: 5px;
+  width: 420px;
+  height: 300px;
+}
+body form .inner-form h4 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0 20px 0;
+}
+body form .inner-form .forgot-account a {
+  color: #1877F2;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+body form .inner-form .email_or_phone,
+body form .inner-form .password {
+  width: 90%;
+  border: none;
+  outline: none;
+  border: 0.7px solid #9E9E9E;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 0 0 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
