@@ -220,7 +220,13 @@ body {
                 display: flex;
                 flex-direction: column;
                 text-align: center;
-                
+                #fa-plus {
+                    color: #555;
+                    font-size: 25px;
+                    font-weight: 100;
+                    padding:0;
+                    opacity: 0.8;
+                }
                 a {
                     text-decoration: none;
                     color: #1877F2;
@@ -229,14 +235,7 @@ body {
                     font-family: 'Roboto', sans-serif;
                     margin: 2px 0;
                     
-                    .fa-plus {
-                        color: #7E7E7E;
-                        font-size: 17px;
-                        font-weight: 100;
-                        border: 1px solid #1877F2;
-                        padding: 2px 3px;
-                        border-radius: 2px;
-                    }
+                    
                 }
             }
         }

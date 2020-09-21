@@ -1,0 +1,74 @@
+$Fbblue: #3B5998;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+
+body {
+    header {
+        nav {
+            width: 100vw;
+            height: 50px;
+            background-color: $Fbblue;
+            display: flex;
+            overflow: hidden;
+            ul {
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li {
+                    list-style: none;
+                    padding: 19px 45px;
+                    #nav-icon {
+                        font-size: 20px;
+                    }
+                }
+                li:hover {
+                    background: #01284C;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        header {
+            nav {
+                ul {
+                    li {
+                        list-style: none;
+                        padding: 19px 20px;
+                        #nav-icon {
+                            font-size: 18px;
+                            font-weight: 100;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    body {
+        header {
+            nav {
+                ul {
+                    li {
+                        list-style: none;
+                        padding: 19px 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Nav End */
