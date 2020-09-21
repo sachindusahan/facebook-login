@@ -195,6 +195,13 @@ body form .inner-form .password {
     flex-direction: column;
     text-align: center;
   }
+  body footer .second-lang-div #fa-plus {
+    color: #555;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0;
+    opacity: 0.8;
+  }
   body footer .second-lang-div a {
     text-decoration: none;
     color: #1877F2;
@@ -202,14 +209,6 @@ body form .inner-form .password {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     margin: 2px 0;
-  }
-  body footer .second-lang-div a .fa-plus {
-    color: #7E7E7E;
-    font-size: 17px;
-    font-weight: 100;
-    border: 1px solid #1877F2;
-    padding: 2px 3px;
-    border-radius: 2px;
   }
 }
 @media (max-width: 500px) {
