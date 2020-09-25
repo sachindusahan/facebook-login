@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+$white: #FCF6F5FF;
+$skyblue: #89ABE3FF;
+$light-purple: #6400E4;
+$dark: #232634;
+$blue: #1A72C2;
+$powder-white: #F1F4FFFF;
+
 nav {
     
     width: 100vw;
@@ -121,5 +128,43 @@ nav {
                 }
             }
         }
+    }
+}
+
+/*
+==================
+End Of header
+==================
+*/
+main {
+    background: #F4F4F4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    .left {
+        background: $powder-white;
+        height: 100%;
+        width: 30%;
+        #left-one {
+            display: flex;
+            flex-direction: column;
+            code {
+                all: unset;
+                font-size: 17px;
+                font-weight: 400;
+                
+            }
+        }
+    }
+    .center {
+        background: $dark;
+        height: 100%;
+        width: 70%;
+        color: #FFF;
+    }
+    .right {
+        background: $white;
+        height: 100%;
+        width: 30%;
     }
 }

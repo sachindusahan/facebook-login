@@ -93,5 +93,41 @@ nav ul .right_side_nav .icons-1 i:hover, nav ul .right_side_nav .icons-2 i:hover
     display: inline-block;
   }
 }
+/*
+==================
+End Of header
+==================
+*/
+main {
+  background: #F4F4F4;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+main .left {
+  background: #F1F4FFFF;
+  height: 100%;
+  width: 30%;
+}
+main .left #left-one {
+  display: flex;
+  flex-direction: column;
+}
+main .left #left-one code {
+  all: unset;
+  font-size: 17px;
+  font-weight: 400;
+}
+main .center {
+  background: #232634;
+  height: 100%;
+  width: 70%;
+  color: #FFF;
+}
+main .right {
+  background: #FCF6F5FF;
+  height: 100%;
+  width: 30%;
+}
 
 /*# sourceMappingURL=index.css.map */
