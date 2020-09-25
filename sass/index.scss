@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    
+    width: 100vw;
+    height: 50px;
+    background: #3B5998;
+    display: flex;
+    overflow: hidden;
+    
+    ul {
+        flex: 1;
+        display: flex;
+        
+        
+        .search-section {
+            display: flex;
+            position: relative;
+            align-items: center;
+            width: 430px;
+            
+            input {
+                width: 100%;
+                border: none;
+                outline: none;
+                border-radius: 2px;
+                padding: 0 0 0 10px;
+                height: 30px;
+                font-family: "Raleway" , sans-serif;
+                
+            }
+            
+            .fa-search {
+                position: absolute;
+                right: 0;
+                color: #555;
+                padding: 7px 14px;
+                background: #F3F3F3;
+                
+            }
+            
+            .fa-facebook-f {
+                color: #3B5998;
+                background: #FFF;
+                padding: 5px 3px 0 10px;
+                font-size: 25px;
+                border-radius: 2px;
+                margin: 0 5px;
+            }
+            
+        }
+        
+        
+        
+        .right_side_nav {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            justify-content: flex-end;
+            
+            .section {
+            
+                flex: 1;
+                display: flex;
+                
+                b {
+                    color: #FFF;
+                    border-right: 1px solid #000;
+                    margin: 0 0 0 12px;
+                    padding-right: 10px;
+                    font-family: "Raleway" , sans-serif;
+                }
+                
+                
+            }
+            
+            .icons-1 i , .icons-2 i {
+                margin: 0 7px;
+                
+            }
+            .icons-1 i:hover , .icons-2 i:hover {
+                color: #FFF;
+            }
+        }
+        
+    }
+}
