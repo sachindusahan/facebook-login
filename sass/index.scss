@@ -79,7 +79,11 @@ nav {
                 
                 
             }
-            
+            .icons-1 {
+                .fa-search,.fa-bars,.fa-id-card {
+                    display: none;
+                }
+            }
             .icons-1 i , .icons-2 i {
                 margin: 0 7px;
                 
@@ -89,5 +93,33 @@ nav {
             }
         }
         
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        nav {
+            ul {
+                .search-section {
+                    display: none;
+                }
+                .right_side_nav {
+                    .section {
+                        display: none;
+                    }
+                    .icons-2 {
+                        display: none;
+                    }
+                    .icons-1 {
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+                        .fa-search,.fa-bars,.fa-id-card {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

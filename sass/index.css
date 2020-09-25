@@ -64,11 +64,34 @@ nav ul .right_side_nav .section b {
   padding-right: 10px;
   font-family: "Raleway", sans-serif;
 }
+nav ul .right_side_nav .icons-1 .fa-search, nav ul .right_side_nav .icons-1 .fa-bars, nav ul .right_side_nav .icons-1 .fa-id-card {
+  display: none;
+}
 nav ul .right_side_nav .icons-1 i, nav ul .right_side_nav .icons-2 i {
   margin: 0 7px;
 }
 nav ul .right_side_nav .icons-1 i:hover, nav ul .right_side_nav .icons-2 i:hover {
   color: #FFF;
+}
+
+@media (max-width: 800px) {
+  header nav ul .search-section {
+    display: none;
+  }
+  header nav ul .right_side_nav .section {
+    display: none;
+  }
+  header nav ul .right_side_nav .icons-2 {
+    display: none;
+  }
+  header nav ul .right_side_nav .icons-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  header nav ul .right_side_nav .icons-1 .fa-search, header nav ul .right_side_nav .icons-1 .fa-bars, header nav ul .right_side_nav .icons-1 .fa-id-card {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
