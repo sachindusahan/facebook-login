@@ -1,3 +1,3 @@
-- [ ] Facebook clone
+- [ ] Facebook clone 
 
-- [ ] Technology `HTML` &  `CSS` and `Sass`
+- [ ] Technology `HTML`  and `Sass`
