@@ -137,33 +137,102 @@ End Of header
 ==================
 */
 main {
-    background: #F4F4F4;
+    background: #FFF;
     height: 100vh;
     width: 100vw;
     display: flex;
     .left {
-        background: $powder-white;
+    
         height: 100%;
         width: 30%;
+        
         #left-one {
             display: flex;
             flex-direction: column;
             code {
                 all: unset;
-                font-size: 17px;
+                font-size: 13px;
                 font-weight: 400;
-                
+            }
+            .name {
+                margin: 12px 0 0 5px;
+                font-weight: 600;
+            }
+            .news-feed {
+                margin: 12px 0 0 10px;
+            }
+            .messenger {
+                margin: 10px 0 0 10px;
+            }
+            .watch {
+                margin: 10px 0 0 10px;
+            }
+            
+        }
+        #left-two {
+            display: flex;
+            flex-direction: column;
+            code {
+                all: unset;
+                font-size: 13px;
+                font-weight: 400;
+            }
+            .shortcuts {
+                 margin: 12px 0 0 5px;
+                font-weight: 600;
+            }
+            .learn {
+                margin: 12px 0 0 10px;
+            }
+            .code-hacking {
+                margin: 10px 0 0 10px;
+            }
+            .see-more {
+                margin: 10px 0 0 10px;
+                color: $skyblue;
+            }
+        }
+        #left-three {
+            display: flex;
+            flex-direction: column;
+            code {
+                all: unset;
+                font-size: 13px;
+                font-weight: 400;
+            }
+            .explore {
+                 margin: 12px 0 0 5px;
+                font-weight: 600;
+            }
+            .welcome {
+                margin: 12px 0 0 10px;
+            }
+            .pages {
+                margin: 10px 0 0 10px;
+            }
+            .see-more {
+                margin: 10px 0 0 10px;
+                color: $skyblue;
             }
         }
     }
     .center {
-        background: $dark;
         height: 100%;
         width: 70%;
-        color: #FFF;
+        
+        .create-post {
+            width: 100%;
+            background: #F4F4F4;
+            padding: 5px 0 5px 10px;
+            margin: 15px 0 0 0;
+            border: .2px solid #787878;
+            border-radius: 5px 5px 0 0;
+            font-weight: 550;
+            font-family: sans-serif;
+        }
+        
     }
     .right {
-        background: $white;
         height: 100%;
         width: 30%;
     }
