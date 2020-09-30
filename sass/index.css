@@ -190,6 +190,24 @@ main .center .create-post {
   font-weight: 550;
   font-family: sans-serif;
 }
+main .center .mind {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 15px 10px;
+  background: #F1F4FFFF;
+  border: 0.2px solid #787878;
+}
+main .center .mind .profile {
+  border: 2px solid #000;
+  background: #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+main .center .mind p {
+  margin: 0 0 0 10px;
+  color: #555;
+}
 main .right {
   height: 100%;
   width: 30%;
