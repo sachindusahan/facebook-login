@@ -225,3 +225,23 @@ body form .inner-form .password {
 }
 
 /*# sourceMappingURL=style.css.map */
+.creater {
+    color: Red;
+    animation-name: creater;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+@keyframes creater {
+	from {
+		left: 10px;
+		top: 10px;
+	}
+	to {
+		top: 10px;
+		left: 300px;
+		opacity: 0;
+		color: blue;
+	}
+}
